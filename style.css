@@ -65,3 +65,22 @@ a:hover{
     border-style: none solid;
 
 }
+
+@media (max-width: 600px) {
+    .description-text {
+        margin: 30px 16px;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .border {
+        border-style: solid none none none;
+        border-top: 2px solid #161616;
+    }
+
+    .list {
+        margin-left: 16px;
+    }
+}
